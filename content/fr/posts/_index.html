@@ -79,13 +79,6 @@ section_taxonomies:
         name: >-
           Art
         count: 1
-      - permalink: "/actualites/association/"
-        path: "/posts_categories/association"
-        slug: "association"
-        file: "content/fr/posts_categories/association/_index.html"
-        name: >-
-          Association
-        count: 2
       - permalink: "/actualites/audio/"
         path: "/posts_categories/audio"
         slug: "audio"
@@ -93,13 +86,9 @@ section_taxonomies:
         name: >-
           Audio
         count: 1
-      - permalink: "/actualites/bande-dessinee/"
-        path: "/posts_categories/bande-dessinee"
-        slug: "bande-dessinee"
-        file: "content/fr/posts_categories/bande-dessinee/_index.html"
-        name: >-
-          Bande-dessinée
-        count: 1
+        children:
+
+
       - permalink: "/actualites/cartographie/"
         path: "/posts_categories/cartographie"
         slug: "cartographie"
@@ -108,6 +97,7 @@ section_taxonomies:
           Cartographie
         count: 1
         children:
+
           - permalink: "/actualites/cartographie/cartographie-sensible/"
             path: "/posts_categories/cartographie/cartographie-sensible"
             slug: "cartographie/cartographie-sensible"
@@ -116,13 +106,6 @@ section_taxonomies:
               Cartographie sensible
             count: 1
 
-      - permalink: "/actualites/conference/"
-        path: "/posts_categories/conference"
-        slug: "conference"
-        file: "content/fr/posts_categories/conference/_index.html"
-        name: >-
-          Conférence
-        count: 1
       - permalink: "/actualites/culture/"
         path: "/posts_categories/culture"
         slug: "culture"
@@ -146,20 +129,8 @@ section_taxonomies:
               Écologie numérique
             count: 1
 
-      - permalink: "/actualites/festival/"
-        path: "/posts_categories/festival"
-        slug: "festival"
-        file: "content/fr/posts_categories/festival/_index.html"
-        name: >-
-          Festival
-        count: 1
-      - permalink: "/actualites/information-design/"
-        path: "/posts_categories/information-design"
-        slug: "information-design"
-        file: "content/fr/posts_categories/information-design/_index.html"
-        name: >-
-          Information design
-        count: 1
+
+
       - permalink: "/actualites/osint/"
         path: "/posts_categories/osint"
         slug: "osint"
@@ -167,20 +138,17 @@ section_taxonomies:
         name: >-
           OSINT
         count: 2
-      - permalink: "/actualites/transition-numerique/"
-        path: "/posts_categories/transition-numerique"
-        slug: "transition-numerique"
-        file: "content/fr/posts_categories/transition-numerique/_index.html"
-        name: >-
-          Transition numérique
-        count: 1
       - permalink: "/actualites/medias/"
         path: "/posts_categories/medias"
         slug: "medias"
         file: "content/fr/posts_categories/medias/_index.html"
         name: >-
-          Médias
+          Média
         count: 1
+        children:
+
+
+
       - permalink: "/actualites/recherche/"
         path: "/posts_categories/recherche"
         slug: "recherche"
@@ -189,12 +157,110 @@ section_taxonomies:
           Recherche
         count: 1
         children:
+
           - permalink: "/actualites/recherche/theorie-du-design/"
             path: "/posts_categories/recherche/theorie-du-design"
             slug: "recherche/theorie-du-design"
             file: "content/fr/posts_categories/recherche/theorie-du-design/_index.html"
             name: >-
               Théorie du design
+            count: 1
+
+      - permalink: "/actualites/numerique/"
+        path: "/posts_categories/numerique"
+        slug: "numerique"
+        file: "content/fr/posts_categories/numerique/_index.html"
+        name: >-
+          Numérique
+        count: 1
+        children:
+
+          - permalink: "/actualites/numerique/transition-numerique/"
+            path: "/posts_categories/numerique/transition-numerique"
+            slug: "numerique/transition-numerique"
+            file: "content/fr/posts_categories/numerique/transition-numerique/_index.html"
+            name: >-
+              Transition numérique
+            count: 1
+
+
+
+
+
+
+
+
+      - permalink: "/actualites/format/"
+        path: "/posts_categories/format"
+        slug: "format"
+        file: "content/fr/posts_categories/format/_index.html"
+        name: >-
+          Format
+        count: 3
+        children:
+          - permalink: "/actualites/format/conference/"
+            path: "/posts_categories/format/conference"
+            slug: "format/conference"
+            file: "content/fr/posts_categories/format/conference/_index.html"
+            name: >-
+              Conférence
+            count: 1
+
+
+          - permalink: "/actualites/format/festival/"
+            path: "/posts_categories/format/festival"
+            slug: "format/festival"
+            file: "content/fr/posts_categories/format/festival/_index.html"
+            name: >-
+              Festival
+            count: 1
+
+
+
+          - permalink: "/actualites/format/association/"
+            path: "/posts_categories/format/association"
+            slug: "format/association"
+            file: "content/fr/posts_categories/format/association/_index.html"
+            name: >-
+              Association
+            count: 2
+
+      - permalink: "/actualites/graphic-design/"
+        path: "/posts_categories/graphic-design"
+        slug: "graphic-design"
+        file: "content/fr/posts_categories/graphic-design/_index.html"
+        name: >-
+          Graphic design
+        count: 1
+        children:
+
+
+
+
+          - permalink: "/actualites/graphic-design/information-design/"
+            path: "/posts_categories/graphic-design/information-design"
+            slug: "graphic-design/information-design"
+            file: "content/fr/posts_categories/graphic-design/information-design/_index.html"
+            name: >-
+              Information design
+            count: 1
+
+
+
+      - permalink: "/actualites/narration/"
+        path: "/posts_categories/narration"
+        slug: "narration"
+        file: "content/fr/posts_categories/narration/_index.html"
+        name: >-
+          Narration
+        count: 1
+        children:
+          - permalink: "/actualites/narration/bande-dessinee/"
+            path: "/posts_categories/narration/bande-dessinee"
+            slug: "narration/bande-dessinee"
+            file: "content/fr/posts_categories/narration/bande-dessinee/_index.html"
+            name: >-
+              Bande-dessinée
             count: 1
 
 
