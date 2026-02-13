@@ -2,10 +2,12 @@
 title: Menu principal
 items:
 - title: Équipe éditoriale
+  slug: equipe-editoriale
   target: "/equipe-editoriale/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/authors"
   file: content/fr/authors/_index.html
 
