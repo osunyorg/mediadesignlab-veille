@@ -4,27 +4,8 @@ default:
   shared_image:
     id: 7cdb2b93-f6e6-49f3-a272-dd894b4b2805
 contents_reading_time:
-  seconds: 2
+  seconds: 0
   text: >-
     moins d'une minute
 contents:
-  - kind: block
-    template: chapter
-
-
-    ranks:
-      base: 2
-    top:
-      active: false
-
-    data:
-      layout: no_background
-      text: >-
-        <p>Un site du <a href="https://www.mediadesignlab.fr" target="_blank" rel="noreferrer">Media Design lab <span class="sr-only">(lien externe)</span></a></p>
-
-
-
-
-
-
 
