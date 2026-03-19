@@ -5,3 +5,23 @@
 .page__home h1
   @extend .sr-only
   
+.logo-text
+  font-weight: 700
+
+#document-header
+  background-color: #ffffff
+
+.logo
+  display: flex
+  align-items: center
+  gap: 12px
+
+  &::before
+    content: ""
+    display: block
+    width: 40px
+    height: 40px
+    background-image: url('/assets/images/logo.svg')
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
