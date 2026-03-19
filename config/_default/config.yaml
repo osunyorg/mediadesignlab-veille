@@ -7,7 +7,7 @@ params:
     active: true
   logo:
     header: ''
-    footer: ''
+    footer: '/assets/images/logo-defonce.svg'
   home:
     head:
       title: site
