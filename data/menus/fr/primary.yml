@@ -3,7 +3,7 @@ title: Menu principal
 items:
 - title: Équipe éditoriale
   slug: equipe-editoriale
-  target: "/equipe-editoriale/"
+  target: "/personnes/equipe-editoriale/"
   kind: page
   new_tab: false
   children: []
